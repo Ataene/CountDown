@@ -1,0 +1,169 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+html{
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+    transition: .5s;
+}
+.HireMe{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.HireMe:hover{
+    transform: scale(1.1);
+}
+.profileText{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: white;
+}
+img{
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 55%;
+    right: 8%;
+    z-index: -1;
+    max-width: 100%;
+}
+span{
+    color: red;
+}
+h4{
+    color: green;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+h1{
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.signUp form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.signUp form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid;
+    outline: none;
+    border-radius: 30px;
+}
+.signUp form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: green;
+    columns: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #868686;
+    top: 6px;
+    right: 6px;
+}
+.lastFooter .ourIcons a{
+    display: inline-block;
+    color: white;
+    margin-right: 15px;
+    transition: transform .3s;
+    font-size: 20px;
+}
+.lastFooter .ourIcons a:hover{
+    transform: scale(1.6)
+}
+.lastFooter p{
+    font-size: 17px;
+    color: white;
+    margin-right: 60px;
+}
+.lastFooter{
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 60px;
+}
+#timeCounter{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: white;
+    border-radius: 100px;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 80%;
+    right: 8%;
+    border: 1px solid;
+    font-size: 25px;
+    align-items: center;
+    color: green;
+}
+
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {
+      font-size: inherit;
+    }
+  } */
+
